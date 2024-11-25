@@ -1,0 +1,181 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-image {
+    height: 80px;
+    width: auto;
+    margin-right: 30px;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+}
+
+/* Заголовок */
+.header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Основний контент */
+.main-content {
+    padding: 40px 0;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #0066cc;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-text {
+    font-size: 16px;
+}
+
+.news-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.news-link:hover {
+    text-decoration: underline;
+}
+
+/* Про нас та контакти */
+.about-section, .contact-section {
+    background-color: #eef5ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact-item {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+/* Секція реклами */
+.ad-section {
+    background-color: #fff9e6;
+    padding: 20px;
+    border: 1px solid #ffd700;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.ad-title {
+    font-size: 20px;
+    color: #e68a00;
+    margin-bottom: 10px;
+}
+
+.ad-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.ad-link {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #ffd700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ad-link:hover {
+    background-color: #e68a00;
+}
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
